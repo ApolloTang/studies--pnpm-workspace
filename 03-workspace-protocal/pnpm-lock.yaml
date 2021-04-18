@@ -1,0 +1,23 @@
+importers:
+  .:
+    specifiers: {}
+  npm-packages-local/local-pkg-b:
+    dependencies:
+      '@apollotang/local-pkg-d': link:../local-pkg-d
+    specifiers:
+      '@apollotang/local-pkg-d': workspace:*
+  npm-packages-local/local-pkg-c:
+    specifiers: {}
+  npm-packages-local/local-pkg-d:
+    specifiers: {}
+  private-packages/private-pkg-x:
+    dependencies:
+      '@apollotang/local-pkg-b': link:../../npm-packages-local/local-pkg-b
+    specifiers:
+      '@apollotang/local-pkg-b': workspace:*
+  private-packages/private-pkg-y:
+    dependencies:
+      '@apollotang/local-pkg-c': link:../../npm-packages-local/local-pkg-c
+    specifiers:
+      '@apollotang/local-pkg-c': workspace:*
+lockfileVersion: 5.2
