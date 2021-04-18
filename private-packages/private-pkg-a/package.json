@@ -1,0 +1,11 @@
+{
+  "name": "@apollotang/pkg-a",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "author": "Apollo Tang",
+  "license": "MIT",
+  "dependencies": {
+    "@apollotang/local-pkg-b": "1.0.0"
+  }
+}
