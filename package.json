@@ -6,8 +6,8 @@
   "license": "MIT",
   "devDependencies": {},
   "scripts": {
-    "mono:bootstrap": "pnpm i -r",
-    "mono:clean": "rm -fr ./**/node_modules",
+    "install:all": "pnpm i -r",
+    "clean": "./scripts/clean.sh",
     "start:pkg-a": "pnpm start --filter \"@apollotang/pkg-a\""
   }
 }
