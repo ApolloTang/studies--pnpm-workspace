@@ -1,3 +1,17 @@
+# Command Aliases: 
+```
+  "scripts": {
+    "install:all": "pnpm i -r",
+    "install:x": "pnpm i --filter \"@apollotang/consumer-x...\"",
+    "install:y": "pnpm i --filter \"@apollotang/consumer-y...\"",
+    "clean": "./scripts/clean.sh",
+    "start:x": "pnpm start --filter \"@apollotang/consumer-x\"",
+    "start:y": "pnpm start --filter \"@apollotang/consumer-y\""
+  }
+```
+
+# Instruction: 
+
 Start local registry:
 
 ```
@@ -13,7 +27,7 @@ $ cd pnpm-filter-studies/workspace
 ---
 
 
-# No Filter
+### No Filter
 
 ```
 $ pnpm clean
@@ -80,7 +94,7 @@ $ tree -Fa --dirsfirst
 
 ---
 
-#Filter consumer-x
+### Filter by consumer-x
 ```
 $ pnpm clean
 $ pnpm install:x
@@ -132,7 +146,7 @@ $ tree -Fa --dirsfirst
 ```
 ---
 
-#Filter consumer-y
+### Filter by consumer-y
 ```
 $ pnpm clean
 $ pnpm install:y
