@@ -1,0 +1,16 @@
+{
+  "name": "pnpm-workspace-local",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "install:all": "pnpm i -r",
+    "install:x": "pnpm i --filter \"@apollotang/consumer-x...\"",
+    "install:y": "pnpm i --filter \"@apollotang/consumer-y...\"",
+    "clean": "./scripts/clean.sh",
+    "start:x": "pnpm start --filter \"@apollotang/consumer-x\"",
+    "start:y": "pnpm start --filter \"@apollotang/consumer-y\""
+  }
+}

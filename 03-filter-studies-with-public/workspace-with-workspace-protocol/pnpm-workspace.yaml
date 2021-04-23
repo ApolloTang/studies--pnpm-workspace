@@ -1,0 +1,7 @@
+packages:
+  # all packages in subdirs of packages/ and components/
+  - 'pkgs-consumer/**'
+  - 'pkgs-local/**'
+  - 'pkgs-public/**'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
