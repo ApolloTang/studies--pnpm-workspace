@@ -6,7 +6,7 @@
   "author": "Apollo Tang",
   "license": "MIT",
   "dependencies": {
-    "@apollotang/local-pkg-d": "1.0.0"
+    "@apollotang/local-pkg-d": "1.0.0",
     "@apollotang/public-pkg-c": "1.0.0"
   },
   "scripts": {

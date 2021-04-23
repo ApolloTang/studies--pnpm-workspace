@@ -1,0 +1,30 @@
+importers:
+  .:
+    specifiers: {}
+  pkgs-consumer/consumer-pkg-x:
+    dependencies:
+      '@apollotang/local-pkg-b': 'link:../../pkgs-local/local-pkg-b'
+    specifiers:
+      '@apollotang/local-pkg-b': 1.0.0
+  pkgs-consumer/consumer-pkg-y:
+    dependencies:
+      '@apollotang/local-pkg-d': 'link:../../pkgs-local/local-pkg-d'
+      '@apollotang/public-pkg-c': 1.0.0
+    specifiers:
+      '@apollotang/local-pkg-d': 1.0.0
+      '@apollotang/public-pkg-c': 1.0.0
+  pkgs-local/local-pkg-b:
+    dependencies:
+      '@apollotang/local-pkg-d': 'link:../local-pkg-d'
+    specifiers:
+      '@apollotang/local-pkg-d': 1.0.0
+  pkgs-local/local-pkg-d:
+    specifiers: {}
+  pkgs-public/public-pkg-c:
+    specifiers: {}
+lockfileVersion: 5.1
+packages:
+  /@apollotang/public-pkg-c/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-7xlxfSGkIbnrmKf2BFtjlUy7IdRotsYDLehgtiuwgYEEk1Knf4aqib9Os97YUVnJoQ5P9UtTgWV//8lajl0MlA==

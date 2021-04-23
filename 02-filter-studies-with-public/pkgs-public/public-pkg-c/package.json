@@ -1,6 +1,6 @@
 {
-  "name": "@apollotang/local-pkg-c",
-  "version": "1.0.0",
+  "name": "@apollotang/public-pkg-c",
+  "version": "2.0.0",
   "main": "src/index.js",
   "author": "Apollo Tang",
   "license": "MIT"
