@@ -3,14 +3,14 @@ importers:
     specifiers: {}
   npm-packages-local/local-pkg-b:
     dependencies:
-      '@apollotang/local-pkg-d': link:../local-pkg-d
+      '@apollotang/local-pkg-d': 'link:../local-pkg-d'
     specifiers:
       '@apollotang/local-pkg-d': 1.0.0
   npm-packages-local/local-pkg-d:
     specifiers: {}
   private-packages/private-pkg-a:
     dependencies:
-      '@apollotang/local-pkg-b': link:../../npm-packages-local/local-pkg-b
+      '@apollotang/local-pkg-b': 'link:../../npm-packages-local/local-pkg-b'
     specifiers:
       '@apollotang/local-pkg-b': 1.0.0
-lockfileVersion: 5.2
+lockfileVersion: 5.1
