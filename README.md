@@ -3,6 +3,13 @@ Start local registry:
 ```
 $ verdaccio
 ```
+
+Go to directory:
+
+```
+$ cd pnpm-filter-studies/workspace
+```
+
 ---
 
 
