@@ -33,10 +33,10 @@ $ cd pnpm-filter-studies/workspace
 $ pnpm clean
 $ pnpm install:all
 ```
-<img src="docs/imgs/all.png" width="400px"/>
+<img src="docs/imgs/all.png" width="500px"/>
 
 ```
-$ tree -Fa --dirsfirst
+$ tree -Fa --dirsfirst  (only show relevent output)
 .
 ├── node_modules/
 │   └── .pnpm/
@@ -101,10 +101,10 @@ $ pnpm install:x
 
 ```
 
-<img src="docs/imgs/x.png" width="400px" />
+<img src="docs/imgs/x.png" width="500px" />
 
 ```
-$ tree -Fa --dirsfirst
+$ tree -Fa --dirsfirst   (only show relevent output)
 .
 │
 ├── node_modules/
@@ -152,10 +152,10 @@ $ pnpm clean
 $ pnpm install:y
 
 ```
-<img src="docs/imgs/y.png" width="400px" />
+<img src="docs/imgs/y.png" width="500px" />
 
 ```
-$ tree -Fa --dirsfirst
+$ tree -Fa --dirsfirst    (only show relevent output)
 .
 ├── node_modules/
 │   │
