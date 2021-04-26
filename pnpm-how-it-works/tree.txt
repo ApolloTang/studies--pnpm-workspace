@@ -18,16 +18,15 @@
 
  2-npm-after-v3/
  ├── node_modules/
- │
- ├── a/
- │   ├── node_modules/
- │   └── package.json
- ├── c/
- │   ├── node_modules/
- │   └── package.json
- ├── b/
- │   ├── node_modules/
- │   └── package.json
+ │   ├── a/
+ │   │   ├── node_modules/
+ │   │   └── package.json
+ │   ├── c/
+ │   │   ├── node_modules/
+ │   │   └── package.json
+ │   └── b/
+ │       ├── node_modules/
+ │       └── package.json
  │
  └── package.json
 
